@@ -11,7 +11,8 @@
     "strictNullChecks": true,
     "strict": true,
     "forceConsistentCasingInFileNames": true,
-    "moduleResolution": "Node"
+    "moduleResolution": "Node",
+    "types": ["unplugin-fonts/client"]
   },
   "references": [
     {
