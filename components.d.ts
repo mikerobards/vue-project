@@ -8,5 +8,7 @@ export {}
 declare module 'vue' {
   export interface GlobalComponents {
     AppBG: typeof import('./src/components/AppBG.vue')['default']
+    AppEditor: typeof import('./src/components/AppEditor.vue')['default']
+    AppUpload: typeof import('./src/components/AppUpload.vue')['default']
   }
 }
